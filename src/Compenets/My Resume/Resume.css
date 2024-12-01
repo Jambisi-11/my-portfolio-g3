@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.resume_container{
+    background-color: #000000;
+    max-width: 100%;
+}
+
+.resume_heading{
+    text-decoration: underline #E6FF00 solid;
+    text-align: left;
+    text-transform: uppercase
+    ;
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 5px;
+    margin: 5px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 200px;
+    flex-direction: column;
+    
+    
+}
+.resume_info_content1{
+display: flex;
+align-items: baseline;
+justify-content: center;
+background-color: #333333;
+margin: 10px 15px;
+padding: 25px;
+border-radius: 12px;
+flex-direction: column;
+max-width: 400px;
+
+}
+.heading{
+    font-size: small;
+    color: #E0F802;
+    display: flex;
+    flex-direction: inherit;
+}
+
+.resume_info_content2{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+ 
+    background-color: #333333;
+    margin: 10px 15px;
+    padding: 25px;
+    border-radius: 12px;
+    flex-direction: column;
+    max-width: 400px;
+
+    
+    }
+    .resume_info_content3{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        background-color: #333333;
+        margin: 10px 15px;
+        padding: 25px;
+        border-radius: 12px;
+        flex-direction: column;
+        max-width: 400px;
+        
+        }
+        .resume_info_content4{
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            background-color: #333333;
+            margin: 10px 15px;
+            padding: 25px;
+            border-radius: 12px;
+            flex-direction: column;
+            max-width: 400px;
+            
+            
+            }
+            .resume_info_content5{
+                display: flex;
+                align-items: baseline;
+                justify-content: center;
+                background-color: #333333;
+                margin: 10px 15px;
+                padding: 25px;
+                border-radius: 12px;
+                flex-direction: column;
+                max-width: 400px;
+
+                
+                }
+
+    
+
+
+
+
+
