@@ -54,31 +54,31 @@
     color: yellow;
   }
   .parent-element {
-    overflow: visible; /* Ensure no overflow issues */
+    overflow: visible; 
   }
   
-  /* Centering the nav__circle container */
+  
 #nav_icon {
-  width: 3.5em; /* Adjust width as needed */
-  height: 3.5em; /* Adjust height as needed */
+  width: 3.5em; 
+  height: 3.5em; 
   display: flex;
-  flex-direction: column; /* Stack children vertically */
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
   
 
-  position: sticky; /* Make the element sticky */
-  top: 10px; /* Distance from the top of the viewport when scrolling */
-  z-index: 1000; /* Ensure it stays above other content */
+  position: sticky; 
+  top: 10px; 
+  z-index: 1000; 
 
 }
 
-/* Style for menu-tab */
+
 .menu-tab {
-  display: flex; /* Use flexbox for menu items */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  padding: 10px; /* Optional padding around the menu */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  padding: 10px; 
 
   padding: 10px;
   margin-top: 0;
@@ -88,60 +88,60 @@
 
 
 .menu-tab ul {
-  list-style-type: none; /* Remove default list styling */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
   text-align: right;
 }
 
 
 .menu-tab li {
-  margin-bottom: 10px; /* Space between items */
+  margin-bottom: 10px; 
   list-style: none;
 }
 
 .menu-tab a {
   color: yellow;
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none; 
 }
 
 .details {
-  display: flex;                          /* Use flexbox for layout */
-  flex-wrap: wrap;                       /* Allow items to wrap to the next line if necessary */
-  align-items: center;                   /* Center items vertically */
-  gap: 7.5em;                              /* Space between items (adjusted for better responsiveness) */
-  margin-top: 2em;                       /* Space above the details section */
-  padding-top: 2em;                      /* Space inside the top of the details section */
-  border-top: 1px solid rgba(192, 187, 187, 0.548); /* Top border */
+  display: flex;                          
+  flex-wrap: wrap;                      
+  align-items: center;                   
+  gap: 7.5em;                              
+  margin-top: 2em;                       
+  padding-top: 2em;                      
+  border-top: 1px solid rgba(192, 187, 187, 0.548); 
   font-size: 20px; 
   }
 
-/* Style for individual items within .details */
+
 .details div {
-  display: flex;                          /* Use flexbox for each item */
+  display: flex;                         
   align-items: center; 
   
 }
 
-/* Space between image and text */
+
 .details img {
-  margin-right: 0.5em;                   /* Space between image and text */
+  margin-right: 0.5em;                   
 }
 
-/* Optional: Media query for responsiveness */
+
 @media (max-width: 768px) {
   .details {
-    gap: em;                            /* Reduce gap on smaller screens */
-    font-size: 18px;                     /* Adjust font size for readability */
-    padding-top: 1em;                    /* Adjust padding for smaller screens */
-    margin-top: 1em;                     /* Adjust margin for smaller screens */
-    flex-direction: column;               /* Stack items vertically on small screens */
-    align-items: flex-start;              /* Align items to the start when stacked */
+    gap: em;                            
+    font-size: 18px;                    
+    padding-top: 1em;                   
+    margin-top: 1em;                   
+    flex-direction: column;              
+    align-items: flex-start;              
   }
 }
 
 .local{
-  margin-top: .5em;                       /* Space above the details section */
+  margin-top: .5em;                      
   padding-top: 1.1em;
   font-size: 20px;  
 }
