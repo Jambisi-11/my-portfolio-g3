@@ -1,3 +1,147 @@
+
 .Main_container{
-    background-color: blue;
+    background-color: black;
+    width: 80%;
+    height: auto;
+    margin-left: 8em;
+    display: grid;
+    grid-template-columns: 23% 77%;
+    gap: 2em; 
+}
+
+.image__container {
+    margin-top: 4em;
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 15px;
+}
+  
+  .image__container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .second_cont{
+    margin-top: 6em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .second_cont p{
+    font-size: 20px;
+  }
+
+  
+  .nav__cirlce img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px; 
+    
+  }
+
+  .cont_cont h3{
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  #word_effect {
+    color: yellow;
+  }
+  .parent-element {
+    overflow: visible; /* Ensure no overflow issues */
+  }
+  
+  /* Centering the nav__circle container */
+#nav_icon {
+  width: 3.5em; /* Adjust width as needed */
+  height: 3.5em; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  
+
+  position: sticky; /* Make the element sticky */
+  top: 10px; /* Distance from the top of the viewport when scrolling */
+  z-index: 1000; /* Ensure it stays above other content */
+
+}
+
+/* Style for menu-tab */
+.menu-tab {
+  display: flex; /* Use flexbox for menu items */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 10px; /* Optional padding around the menu */
+
+  padding: 10px;
+  margin-top: 0;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+
+.menu-tab ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  text-align: right;
+}
+
+
+.menu-tab li {
+  margin-bottom: 10px; /* Space between items */
+  list-style: none;
+}
+
+.menu-tab a {
+  color: yellow;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.details {
+  display: flex;                          /* Use flexbox for layout */
+  flex-wrap: wrap;                       /* Allow items to wrap to the next line if necessary */
+  align-items: center;                   /* Center items vertically */
+  gap: 7.5em;                              /* Space between items (adjusted for better responsiveness) */
+  margin-top: 2em;                       /* Space above the details section */
+  padding-top: 2em;                      /* Space inside the top of the details section */
+  border-top: 1px solid rgba(192, 187, 187, 0.548); /* Top border */
+  font-size: 20px; 
+  }
+
+/* Style for individual items within .details */
+.details div {
+  display: flex;                          /* Use flexbox for each item */
+  align-items: center; 
+  
+}
+
+/* Space between image and text */
+.details img {
+  margin-right: 0.5em;                   /* Space between image and text */
+}
+
+/* Optional: Media query for responsiveness */
+@media (max-width: 768px) {
+  .details {
+    gap: em;                            /* Reduce gap on smaller screens */
+    font-size: 18px;                     /* Adjust font size for readability */
+    padding-top: 1em;                    /* Adjust padding for smaller screens */
+    margin-top: 1em;                     /* Adjust margin for smaller screens */
+    flex-direction: column;               /* Stack items vertically on small screens */
+    align-items: flex-start;              /* Align items to the start when stacked */
+  }
+}
+
+.local{
+  margin-top: .5em;                       /* Space above the details section */
+  padding-top: 1.1em;
+  font-size: 20px;  
 }
