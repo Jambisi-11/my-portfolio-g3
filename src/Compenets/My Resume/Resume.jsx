@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Resume.css"
+import Nav from '../Content/Home/Nav/Nav'
 const Resume = () => {
   return (
     <div className = "resume_container">
+    <Nav />
       <h1 className = "resume_heading">My Resume</h1>
       <div className ="resume_info">
          <h4 className = "head">Works Experiences</h4>

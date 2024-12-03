@@ -5,6 +5,7 @@ import Blog from './Compenets/Blog/Blog'
 import Resume from './Compenets/My Resume/Resume'
 import Contact from './Compenets/Contact/Contact'
 import Home from './Compenets/Content/Home/Home'
+import Nav from './Compenets/Content/Home/Nav/Nav'
 import './app.css'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -24,9 +25,10 @@ const App = () => {
             <Routes>
                 <Route path='/'  element={<Home />} />
                 <Route path='/Resume'  element={<Resume />} />
-                <Route path='/Porfolio'  element={<Portfolio/>} />
+                <Route path='/Portfolio'  element={<Portfolio/>} />
                 <Route path='Blog'  element={<Blog/>} />
                 <Route path='Contact'  element={<Contact/>} />
+                <Route path='Nav'  element={<Nav/>} />
             </Routes>
       </Router> 
       

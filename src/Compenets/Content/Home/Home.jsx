@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import Nav from './Nav/Nav'
 import WhatIDo from './WhatIDo/WhatIDo'
 import FeedBack from './FeedBack/FeedBack'
-import Footer from '../../Footer/Footer'
 import './Home.css'
 import img from '../../../assets/pro.png'
 import menu_logo from "../../../assets/menu logo.png"
@@ -11,6 +9,7 @@ import at from '../../../assets/@logo.png'
 import dob from '../../../assets/dob.png'
 import navigation from '../../../assets/navigation.png'
 import whats from '../../../assets/whats.png'
+
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
