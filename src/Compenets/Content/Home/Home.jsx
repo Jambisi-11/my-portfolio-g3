@@ -61,10 +61,10 @@ const Home = () => {
       </div>
         
       <div className='writeup'>
-          <p> I am a Missionary with the Living Seed Team, currently residing in Gboko. As a Creative Developer, I focus on interactive projects that encompass apps, VR experiences, and creative websites. I dedicate much of my time to coding outstanding projects and studying new technologies to enhance my development stack.
-In addition to my work as a front-end developer, I am a full-stack engineer in the making. I specialize in media work and film editing, crafting compelling designs that come to life through transitions and animations tailored to my clients’ needs. My goal is to create fully interactive and responsive websites and apps using the most sophisticated technologies available today.
-I am passionate about reaching out to youth through the world of technology, leveraging my skills to inspire and engage the next generation.</p>
-  </div>
+          <p> I am a Missionary with the Living Seed Team, currently residing in Gboko. As a Creative Developer, I focus on interactive projects that encompass apps and creative websites. I dedicate much of my time to coding outstanding projects and studying new technologies to enhance my development stack.</p>
+          <p> In addition to my work as a front-end developer, I am a full-stack engineer in the making. I specialize in media work and film editing, crafting compelling designs that come to life through transitions and animations tailored to my clients’ needs. My goal is to create fully interactive and responsive websites and apps using the most sophisticated technologies available today. </p>
+          <p> I am passionate about reaching out to youth through the world of technology, leveraging my skills to inspire and engage the next generation. </p>
+      </div>
 
       <WhatIDo />
       <FeedBack />
