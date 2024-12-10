@@ -61,8 +61,10 @@ const Home = () => {
       </div>
         
       <div className='writeup'>
-          <p>I'm a Creative Developer for interactive projects that usually are apps, VR and Creative websites. I Spend most of time coding outstanding projects or studying new technologies. to improve my development stack. I develop compelling designs that spring to life using transition and animations that suit my clients, using the most sophisticated technologies available today for fully interactive and responsive websites and apps.  (in the above writeup,  edit this for me with my deteails. I am a Missionary, labouring with Living Seed Team. currently living in Gboko. I am into media work, film editor and also a front end developer, full stack enginner in making. wishing to reachout to youth through the world of technology )</p>
-      </div>
+          <p> I am a Missionary with the Living Seed Team, currently residing in Gboko. As a Creative Developer, I focus on interactive projects that encompass apps, VR experiences, and creative websites. I dedicate much of my time to coding outstanding projects and studying new technologies to enhance my development stack.
+In addition to my work as a front-end developer, I am a full-stack engineer in the making. I specialize in media work and film editing, crafting compelling designs that come to life through transitions and animations tailored to my clients’ needs. My goal is to create fully interactive and responsive websites and apps using the most sophisticated technologies available today.
+I am passionate about reaching out to youth through the world of technology, leveraging my skills to inspire and engage the next generation.</p>
+  </div>
 
       <WhatIDo />
       <FeedBack />
