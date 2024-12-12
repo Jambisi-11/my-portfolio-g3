@@ -1,0 +1,17 @@
+.whatIdo{
+    margin-top: 2.5em;
+}
+
+.whatIdo h3{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 0.2em;
+}
+
+.do-1, .do-2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 1.5em;
+    align-items: center; 
+}
