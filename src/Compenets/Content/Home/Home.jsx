@@ -28,7 +28,7 @@ const Home = () => {
               <div className='second_cont'>
                   <div className='cont_cont'>
                       <p>Hello Everyone 👋</p>
-                      <h3>I'm Ajide O. James</h3>
+                      <h3 >I'm Ajide O. James</h3>
                       <h3>I am a <span id='word_effect'>Missionary</span></h3>
                   </div>
                 <div className='nav__circle' id='nav_icon'>
@@ -56,7 +56,6 @@ const Home = () => {
                     <div><img src={at} alt="email" />jambis.banji@yahoo.com</div> 
                 </div>
                 <div className='local'><img src={navigation} alt="Location" />Gboko, Benue State, Nigeria</div>
-          
           </div> 
       </div>
         

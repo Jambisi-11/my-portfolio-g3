@@ -53,6 +53,7 @@
   .cont_cont h3{
     margin: 0;
     font-size: 3em;
+    font-weight: bold;
   }
 
   #word_effect {
@@ -115,7 +116,7 @@
   display: flex;                          
   flex-wrap: wrap;                      
   align-items: center;                   
-  gap: 4em;                               */
+  gap: 4em;                              
   margin-top: 2em;                       
   padding-top: 2em;                      
   border-top: 1px solid rgba(192, 187, 187, 0.548); 
@@ -149,7 +150,7 @@
 .local{
   margin-top: .5em;                      
   padding-top: 1.1em;
-  font-size: 20px;  
+  font-size: 20px;
 }
 
 
@@ -164,4 +165,9 @@
 .writeup {
   width: 100%;
   
+}
+
+.writeup p{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
