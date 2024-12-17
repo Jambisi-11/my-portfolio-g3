@@ -1,7 +1,7 @@
 .body-cont {
   background-color: black;
   width: 80%;
-  height: auto;
+  height: 250vh;
   margin-left: 6.5em;
 }
 .Main_container{
@@ -47,11 +47,11 @@
     
   }
   .cont_cont {
-    margin-bottom: 1.7em;
+    margin-bottom: 0.9em;
   }
 
   .cont_cont h3{
-    margin: 0;
+    margin: .3em;
     font-size: 3em;
     font-weight: bold;
   }
@@ -71,8 +71,6 @@
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
-  
-
   position: sticky; 
   top: 10px; 
   z-index: 1000; 
@@ -84,8 +82,6 @@
   display: flex; 
   flex-direction: column; 
   align-items: center; 
-  padding: 10px; 
-
   padding: 10px;
   margin-top: 0;
   margin-right: 20px;
