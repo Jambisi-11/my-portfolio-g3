@@ -1,7 +1,7 @@
 .body-cont {
   background-color: black;
   width: 80%;
-  height: auto;
+  height: 250vh;
   margin-left: 6.5em;
 }
 .Main_container{
@@ -47,12 +47,13 @@
     
   }
   .cont_cont {
-    margin-bottom: 1.7em;
+    margin-bottom: 0.9em;
   }
 
   .cont_cont h3{
-    margin: 0;
+    margin: .3em;
     font-size: 3em;
+    font-weight: bold;
   }
 
   #word_effect {
@@ -70,8 +71,6 @@
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
-  
-
   position: sticky; 
   top: 10px; 
   z-index: 1000; 
@@ -83,8 +82,6 @@
   display: flex; 
   flex-direction: column; 
   align-items: center; 
-  padding: 10px; 
-
   padding: 10px;
   margin-top: 0;
   margin-right: 20px;
@@ -115,7 +112,7 @@
   display: flex;                          
   flex-wrap: wrap;                      
   align-items: center;                   
-  gap: 4em;                               */
+  gap: 4em;                              
   margin-top: 2em;                       
   padding-top: 2em;                      
   border-top: 1px solid rgba(192, 187, 187, 0.548); 
@@ -149,7 +146,7 @@
 .local{
   margin-top: .5em;                      
   padding-top: 1.1em;
-  font-size: 20px;  
+  font-size: 20px;
 }
 
 
@@ -164,4 +161,9 @@
 .writeup {
   width: 100%;
   
+}
+
+.writeup p{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
