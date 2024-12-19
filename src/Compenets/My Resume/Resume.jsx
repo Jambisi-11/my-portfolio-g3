@@ -101,64 +101,58 @@ const Resume = () => {
       <hr />
       <div className="skill_category">
         <h2 className="skill2">Design</h2>
-        <div>
-          <ul className="skill_list">
-            <li>
-              <div className="bar_info">
-                <h5>Photoshop</h5><span>80</span>%
-              </div>
-              <div className="progress" >
-                <progrss min="80" max="100"></progrss>
-              </div>
-            </li>
-            <li>
+          <div className="skill3">
+                <div className="bar_info">
+                  <h5>Photoshop</h5><span className="span">80%</span>
+                </div>
+              <div className="progress_container" id="p80">
+                    <div className="progress_bar" style={{ width: `${80}%` }}></div>
+                </div>
             <div className="bar_info">
-                <h5>Sketch</h5><span>500</span>%
+                <h5>Sketch</h5><span>50</span>%
               </div>
-              <div className="rogress">
-                <div className="percentage" data-percent="50" ></div>
-              </div>
-            </li>
-            <li>
+              <div className="progress_container" id="p50">
+                    <div className="progress_bar" style={{ width: `${50}%` }}></div>
+                </div>
+           
+            
             <div className="bar_info">
                 <h5>Figma</h5><span>70</span>%
               </div>
-              <div className="rogress">
-                <div className="percentage" data-percent="70" ></div>
-              </div>
-            </li>
-          </ul>
+              <div className="progress_container" id="p70">
+                    <div className="progress_bar" style={{ width: `${70}%` }}></div>
+                </div>
+           
+         
         </div>
       </div>
       <div className="skill_category">
         <h2 className="skill2">Coding</h2>
-        <div>
-          <ul className="skill_list">
-            <li>
+        <div className="skill3">
+          
+            
               <div className="bar_info">
                 <h5>JavaScript</h5><span>80</span>%
               </div>
-              <div className="rogress">
-                <div className="percentage" data-percent="80" ></div>
-              </div>
-            </li>
-            <li>
+              <div className="progress_container" id="p80">
+                    <div className="progress_bar" style={{ width: `${80}%` }}></div>
+                </div>
+            
+            
             <div className="bar_info">
                 <h5>Html5</h5><span>50</span>%
               </div>
-              <div className="rogress">
-                <div className="percentage" data-percent="50" ></div>
-              </div>
-            </li>
-            <li>
+              <div className="progress_container" id="p50">
+                    <div className="progress_bar" style={{ width: `${50}%` }}></div>
+                </div>
+           
             <div className="bar_info">
                 <h5>CSS</h5><span>70</span>%
               </div>
-              <div className="rogress">
-                <div className="percentage" data-percent="70" ></div>
-              </div>
-            </li>
-          </ul>
+              <div className="progress_container" id="p70">
+                    <div className="progress_bar" style={{ width: `${70}%` }}></div>
+                </div>
+          
         </div>
       </div>
       <div></div>
