@@ -14,16 +14,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>
-      {/* <Home />
-      <Footer />
-      <Resume />
-      <Portfolio />
-      <Blog />
-      <Contact />   
- */}
-
+    <div >
+    
       <Router>
+        <Nav/> 
             <Routes>
                 <Route path='/'  element={<Home />} />
                 <Route path='/Resume'  element={<Resume />} />

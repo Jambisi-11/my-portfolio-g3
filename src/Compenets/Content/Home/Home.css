@@ -1,18 +1,18 @@
 .body-cont {
   background-color: black;
   width: 80%;
-  height: 250vh;
+  min-height: 250vh;
   margin-left: 6.5em;
+  
 }
 .Main_container{
-   
     display: grid;
     grid-template-columns: 23% 77%;
     gap: 2em; 
 }
 
 .image__container {
-    margin-top: 4em;
+    margin-top: 0em;
     width: 100%;
     height: 65vh;
     overflow: hidden;
@@ -29,7 +29,7 @@
   }
 
   .second_cont{
-    margin-top: 6em;
+    margin-top: em;
     width: 100%;
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,14 @@
+.feed-title h3 {
+    margin-bottom: 4em; 
+}
+
+.slide-1, .slide-2, .slide-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em; 
+}
+
+.gen-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
