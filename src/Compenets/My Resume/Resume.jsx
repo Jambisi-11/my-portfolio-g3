@@ -4,7 +4,7 @@ import Nav from '../Content/Home/Nav/Nav'
 const Resume = () => {
   return (
     <div className = "resume_container">
-    {/* <Nav /> */}
+    
       <h1 className = "resume_heading">My Resume</h1>
                <div className="headdiv"><h4 className = "head">👨‍💻 Works Experiences</h4></div>
       <div className ="resume_info">
@@ -152,7 +152,7 @@ const Resume = () => {
               <div className="progress_container" id="p70">
                     <div className="progress_bar" style={{ width: `${70}%` }}></div>
                 </div>
-          
+        
         </div>
       </div>
       <div></div>
