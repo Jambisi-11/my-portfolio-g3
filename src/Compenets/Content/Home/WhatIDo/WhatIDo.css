@@ -1,17 +1,39 @@
+
+
 .whatIdo{
-    margin-top: 2.5em;
+    margin-top: 5em;
+    margin-bottom:5em;
+    
 }
 
 .whatIdo h3{
     text-decoration: underline;
     text-decoration-color: yellow;
     text-decoration-thickness: 0.2em;
+    font-size: 30px;
+    margin-bottom: 2.5em;
 }
 
-.do-1, .do-2 {
-    list-style: none;
+.my-table{
+    width: 40em; 
+    margin-left: 1em ; 
+    margin-bottom: 15px; 
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+
+.my-table img {
+    margin-right: 20px; 
+    width: 60px; 
+    height: 60px; 
+}
+
+.cont-flex{
     display: flex;
-    justify-content: space-between; 
-    font-size: 1.5em;
-    align-items: center; 
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+    width: 67em;
+    padding-left: 1em;
 }
