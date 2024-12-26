@@ -99,6 +99,7 @@ const Resume = () => {
             </div>
       </div>
       <hr />
+      <section>
       <div className="skill_category">
         <h2 className="skill2">Design</h2>
           <div className="skill3">
@@ -126,6 +127,7 @@ const Resume = () => {
          
         </div>
       </div>
+      </section>
       <div className="skill_category">
         <h2 className="skill2">Coding</h2>
         <div className="skill3">
