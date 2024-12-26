@@ -7,22 +7,18 @@ import Contact from './Compenets/Contact/Contact'
 import Home from './Compenets/Content/Home/Home'
 import Nav from './Compenets/Content/Home/Nav/Nav'
 import './app.css'
-import BlogInfo2 from './Compenets/Blog/BlogInfo2'
+
+
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>
-      {/* <Home />
-      <Footer />
-      <Resume />
-      <Portfolio />
-      <Blog />
-      <Contact />   
- */}
-
+    <div >
+    
       <Router>
+        <Nav/> 
             <Routes>
                 <Route path='/'  element={<Home />} />
                 <Route path='/Resume'  element={<Resume />} />
@@ -30,7 +26,6 @@ const App = () => {
                 <Route path='Blog'  element={<Blog/>} />
                 <Route path='Contact'  element={<Contact/>} />
                 <Route path='Nav'  element={<Nav/>} />
-                <Route path='Bloginfo2'  element={<BlogInfo2/>} />
             </Routes>
       </Router> 
       

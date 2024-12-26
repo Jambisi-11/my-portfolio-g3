@@ -5,14 +5,13 @@ import BlogImage from './BlogImage'
 const Blog = () => {
   return (
     <>
-    <div className='blogheader'>Blog
-    <Nav/>
+     <div className='blog'>Blog
     </div>
     <div className='Blog'>
      <BlogImage/>  
     </div> 
+  
     </>
-
   )
 }
 
