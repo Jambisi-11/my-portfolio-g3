@@ -6,6 +6,7 @@ const Blog = () => {
   return (
     <div>
     <div className='blog'>Blog
+  
     </div>
     <div className='Blog'>
      <BlogImage/>  
