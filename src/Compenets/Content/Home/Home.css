@@ -144,10 +144,17 @@
 }
 
 .local{
+  display: flex;
   margin-top: .5em;                      
   padding-top: 1.1em;
   font-size: 20px;
+  
 }
+
+.local img {
+  margin-right: 0.5em;                   
+}
+
 
 
 @media (min-width: 600px) {
