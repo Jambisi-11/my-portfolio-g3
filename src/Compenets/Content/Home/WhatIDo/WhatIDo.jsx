@@ -36,7 +36,8 @@ const WhatIDo = () => {
               </tr>
             </tbody>
        </table>
-      </div>  
+      </div> 
+       
     </div>
   )
 }
