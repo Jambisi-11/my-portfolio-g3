@@ -1,35 +1,14 @@
-.feed-title{
-     margin-top: 5em;
-    margin-bottom:5em;  
-}
-
 .feed-title h3 {
-    text-decoration: underline;
-    text-decoration-color: yellow;
-    text-decoration-thickness: 0.2em;
-    font-size: 30px;
-    margin-bottom: 2.5em;
-
-    
-    font-weight: 600;
-    position: relative;
-    display: inline-block;
-    letter-spacing: -1px;
-    line-height: 30px;
+    margin-bottom: 4em; 
 }
 
 .slide-1, .slide-2, .slide-3 {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* gap: 1em;  */
+    display: flex;
+    justify-content: space-between;
+    gap: 1em; 
 }
 
 .gen-cont {
-    /* display: flex;
-    flex-wrap: wrap; */
-}
-
-#slide-1{
-    
-    padding-top: 7em;
+    display: flex;
+    flex-wrap: wrap;
 }

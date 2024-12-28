@@ -112,7 +112,7 @@
   display: flex;                          
   flex-wrap: wrap;                      
   align-items: center;                   
-  gap: 2.5em;                              
+  gap: 4em;                              
   margin-top: 2em;                       
   padding-top: 2em;                      
   border-top: 1px solid rgba(192, 187, 187, 0.548); 
@@ -144,17 +144,10 @@
 }
 
 .local{
-  display: flex;
   margin-top: .5em;                      
   padding-top: 1.1em;
   font-size: 20px;
-  
 }
-
-.local img {
-  margin-right: 0.5em;                   
-}
-
 
 
 @media (min-width: 600px) {
