@@ -1,12 +1,14 @@
 .Gridcontainer{
+    height: 100vh;
     margin:auto;
     box-sizing: border-box;
-    background-color: rgb(228, 228, 225);
+    color: aliceblue;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr); 
     gap: 10px;
     padding: 5px 10px;
+    
     
 
 }
@@ -21,7 +23,29 @@
     margin:auto;
     padding-top: 8px;
     object-fit:contain;
-    /* transition-duration: 1s;
-    transition: all;
-    transition: ease-in-out; */
+}
+.info{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    overflow-x: hidden;
+    margin:auto;
+    padding-top: 8px;
+    object-fit:contain;
+    color: white;
+}
+.htag{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color:yellow; 
+}
+.ptag{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color:aliceblue; 
 }

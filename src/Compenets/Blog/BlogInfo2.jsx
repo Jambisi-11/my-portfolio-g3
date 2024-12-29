@@ -6,6 +6,7 @@ const BlogInfo2 = () => {
     <div>
         <img src={'../../../src/assets/Blogpics/way.jpg'}className='image'/>
     </div>
+    <h2 className='htag'><u><b>JESUS IS THE WAY</b></u></h2>
     <p className='info'>
     Jesus Is the Way
  In John 14:6, Jesus declared, "I am the way, the truth, and the life. No one comes to the Father except through Me." These words are both an invitation and a profound truth that has echoed through the centuries.
