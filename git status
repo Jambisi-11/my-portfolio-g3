@@ -1,0 +1,212 @@
+[33mcommit db05beaca1f3baf3054606b2b0068bc7585e7601[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mblog[m[33m)[m
+Author: Danyaro Nanwal Samuel <danyaronanwal@gmail.com>
+Date:   Sun Dec 29 15:23:21 2024 +0100
+
+    read blog links added to Blog
+
+[33mcommit 768564730fd5427c3b45051cd5ad0d1b6e1e0b2a[m
+Merge: b178f76 31fd0d7
+Author: Emic21 <ecmichaelo@gmail.com>
+Date:   Thu Dec 26 21:06:52 2024 +0100
+
+    Merge pull request #4 from Jambisi-11/resume
+    
+    Resume
+
+[33mcommit 31fd0d796e949c7912e1ded5efbc1d9fef05be47[m
+Author: Emic21 <ecmichaelo@gmail.com>
+Date:   Thu Dec 26 21:04:35 2024 +0100
+
+    update on Resume
+
+[33mcommit ca96f23909b9a7edc5f3094295dd3d3e7e559bbd[m
+Author: Emic21 <ecmichaelo@gmail.com>
+Date:   Thu Dec 26 20:59:25 2024 +0100
+
+    update on resume
+
+[33mcommit b178f767bf04ff2da8fc3a664be612649c43421c[m
+Merge: ff715e3 74454d2
+Author: Ajide Olabisi James <jambis.banji@yahoo.com>
+Date:   Thu Dec 26 20:37:45 2024 +0100
+
+    Merge pull request #3 from Jambisi-11/contact
+    
+    structure
+
+[33mcommit 74454d213436129bb6271a8844ce01a1c32716c7[m
+Merge: 3d2d922 ff715e3
+Author: Ajide Olabisi James <jambis.banji@yahoo.com>
+Date:   Thu Dec 26 20:35:36 2024 +0100
+
+    Merge branch 'main' into contact
+
+[33mcommit 3d2d9222ebd21c24afc04f22c67da7a6fbaadb1b[m
+Author: TIMTEE <ezemara212@gmail.com>
+Date:   Thu Dec 26 20:25:16 2024 +0100
+
+    structure
+
+[33mcommit ff715e3b012b07ee0403fb306e42ed0e574a5d13[m
+Merge: d6e24ae dcfc03b
+Author: Ajide Olabisi James <jambis.banji@yahoo.com>
+Date:   Thu Dec 26 14:07:36 2024 +0100
+
+    Merge pull request #2 from Jambisi-11/blog
+    
+    Blog
+
+[33mcommit dcfc03bd4dc046cc25d64f8bb983a12576779329[m
+Merge: 0ae3a36 d6e24ae
+Author: Nanwal <danyaronanwal@gmail.com>
+Date:   Thu Dec 26 14:07:02 2024 +0100
+
+    Merge branch 'main' into blog
+
+[33mcommit 0ae3a36b7757354714c27e859c3e1f852a67a9c5[m[33m ([m[1;31morigin/blog[m[33m)[m
+Author: Danyaro Nanwal Samuel <danyaronanwal@gmail.com>
+Date:   Thu Dec 26 13:59:42 2024 +0100
+
+    updated
+
+[33mcommit bcb3e008b49320821418fdda02d5f4154c5ab2c9[m
+Author: Danyaro Nanwal Samuel <danyaronanwal@gmail.com>
+Date:   Thu Dec 26 13:02:29 2024 +0100
+
+    my-portfolio-blog
+
+[33mcommit 19ab97387d4c4b9f3eff519320061f70686826fb[m[33m ([m[1;32mmain[m[33m, [m[1;32mfeatures/blog[m[33m)[m
+Author: Danyaro Nanwal Samuel <danyaronanwal@gmail.com>
+Date:   Thu Dec 26 12:27:28 2024 +0100
+
+    my-portfolio-blog
+
+[33mcommit d6e24ae05ca94676ddc6983cf92fce98c9aab644[m
+Merge: 099ec94 5830ccd
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Fri Dec 20 22:31:04 2024 +0100
+
+    amrging Resum
+
+[33mcommit 099ec94391bf10cb9524106336eac93a986760a6[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Fri Dec 20 22:13:09 2024 +0100
+
+    Home updated
+
+[33mcommit 5830ccdbdb70335a301ecc3ad8a386a3718828f3[m
+Merge: aebe65f 5f35eb8
+Author: Emic21 <ecmichaelo@gmail.com>
+Date:   Thu Dec 19 15:52:21 2024 +0100
+
+    update on Design and Coding
+
+[33mcommit aebe65f5d92bbb9bf64cd54094ced5040151677e[m
+Author: Emic21 <ecmichaelo@gmail.com>
+Date:   Thu Dec 19 15:42:55 2024 +0100
+
+    Update on design and coding skills
+
+[33mcommit 5f35eb87051345c5201f32dd843f2dcd96f6b61e[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Tue Dec 17 20:16:39 2024 +0100
+
+    What peoeple are saying is updated
+
+[33mcommit 032528a79b3361f13372b756a81990d6f0686b7e[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Tue Dec 17 15:07:27 2024 +0100
+
+    Add configuration files and assets
+
+[33mcommit cef36fc832a1519812ad1e69eb7413e0ff00d6d6[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Tue Dec 17 15:07:11 2024 +0100
+
+    Update Home component and styles
+
+[33mcommit 261804d6a00642a25469ca06ca87f408e096a777[m
+Merge: 1312d88 8911e9e
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Tue Dec 17 15:05:53 2024 +0100
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 1312d884838ce9d5925dc1873a4a08b379cf3b09[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Tue Dec 17 15:02:00 2024 +0100
+
+    Commit local changes before pulling
+
+[33mcommit 8911e9e783348a730f2d8fcc2a5148b8155653e0[m
+Author: Emic21 <ecmichaelo@gmail.com>
+Date:   Tue Dec 17 14:56:44 2024 +0100
+
+    update on sikills-language,gesignand coding
+
+[33mcommit b0e4a0747a342e6fa6eb872aef9e3d651aa1136b[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Thu Dec 12 14:58:39 2024 +0100
+
+    What I do updated
+
+[33mcommit 992b03bae2ea2174ac3f57ff0741f2bd9ac811ea[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Tue Dec 10 20:25:25 2024 +0100
+
+    updated
+
+[33mcommit cb9db802ddb4ff70bf3b48e68b2f98a55b223979[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Tue Dec 10 20:20:42 2024 +0100
+
+    updated
+
+[33mcommit 2176300c6744ee2f470f4a0104bfea95fcbcf478[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Tue Dec 10 15:54:08 2024 +0100
+
+    Home Updated
+
+[33mcommit 1e824141eaf7ee90b3ef0644bf73bb73e47363d6[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Tue Dec 3 15:53:09 2024 +0100
+
+    Nav added to the Pages
+
+[33mcommit e30d1a77b479da3946bb108aee7650b156f90e1a[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Mon Dec 2 11:53:31 2024 +0100
+
+    css of home.jsx updated
+
+[33mcommit 54d1154eac4afc4b43fa5acb6ec7a8ecf4987985[m
+Merge: 9bd6086 1becfab
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Mon Dec 2 11:37:46 2024 +0100
+
+    Resolved merge conflicts and completed merge
+
+[33mcommit 9bd608661eb2722147920998df0c4ec95cea4442[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Mon Dec 2 11:23:09 2024 +0100
+
+    Home page updated
+
+[33mcommit 1becfab32b7e919b5d765b6bf2663c878eb809ac[m
+Author: Emic21 <ecmichaelo@gmail.com>
+Date:   Sun Dec 1 21:58:39 2024 +0100
+
+    first Resume commit
+
+[33mcommit df6c7c62ac81fddf6d05837909d9e334422b05bc[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Fri Nov 29 13:04:06 2024 +0100
+
+    Update
+
+[33mcommit 7837dc6e75167669bf418a483ea9eb12da04ecaf[m
+Author: jambisi <jambis.banji@yahoo.com>
+Date:   Fri Nov 29 12:59:56 2024 +0100
+
+    Project structured
