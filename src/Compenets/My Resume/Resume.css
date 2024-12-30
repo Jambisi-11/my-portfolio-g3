@@ -178,28 +178,21 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
         font-size: 1.6rem;
         line-height: 50px;
         font-weight: 600;
+        
     }
-
+/* language skill */
   .lang{
     font-size: 2.3rem;
     opacity: 0.3;
     letter-spacing: 9px;
     transform: rotate(90deg);
     height: 240px;
- /*    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg); */
+    color: #ffffff;
+ 
 } 
 .skill_category{
     display: flex;
     flex-wrap: wrap;
-
-
-    
-   
-  
- 
 }
 .skill{
     margin: 0;
@@ -212,54 +205,10 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
     text-transform: capitalize;
     font-size: medium;
 }
-  /* .skill_category{
-        --bs-gutter-x: 0;
-        --bs-gutter-y: -1rem;
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: calc(-1 * var(--bs-gutter-y));
-        margin-right: calc(-.2 * var(--bs-gutter-x));
-        margin-left: calc(-.5 * var(--bs-gutter-x));
-        width: 100%;
-        height: 240px;
-        direction: ltr;} */
-       
-        
 
-/* .skill_category>* {
-    box-sizing: border-box;
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-top: var(--bs-gutter-y)
-} */
 
-.chart {
-    position: relative;
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    margin-bottom: 26px;
-    text-align: center;
-    background-color: #333333;
-    margin-left: 40px;
-    
 
-  
 
-    
-}
-.span1 {
-    display: inline-block;
-    font-size: 18px;
-    line-height: 156px;
-    z-index: 2;
-    color: #fff;
-    font-weight: 800;
-}
 .skill1{
     display: flex;
     justify-content: center;
@@ -272,10 +221,169 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
     letter-spacing: 9px;
     transform: rotate(90deg);
     height: 240px;
+    color: #ffffff;
     
     
 }
 
+
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 26px;
+    text-align: center;
+    background-color: #333333;
+    margin-left: 40px;
+   
+    
+}
+.circular-progress {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circular-progress1 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .circular-progress2 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .circular-progress3 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .circular-progress4 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+
+  .circular-progress svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circular-progress1 svg path {
+    stroke: #e5ff00;
+    fill: none;
+    transform: rotate(90deg);
+    transform-origin: center;
+    stroke-dashoffset: 530;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+
+  .circular-progress2 svg path {
+    stroke: #e5ff00;
+    fill: none;
+    transform: rotate(90deg);
+    transform-origin: center;
+    stroke-dashoffset: 440;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+
+  .circular-progress3 svg path {
+    stroke: #e5ff00;
+    fill: none;
+    transform: rotate(90deg);
+    transform-origin: center;
+    stroke-dashoffset: 500;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+
+  .circular-progress4 svg path {
+    stroke: #e5ff00;
+    fill: none;
+    transform: rotate(90deg);
+    transform-origin: center;
+    stroke-dashoffset: 460;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+  
+  .circular-progress1 .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+  }
+
+  .circular-progress2 .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+  }
+
+  .circular-progress3 .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+  }
+
+  .circular-progress4 .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+  }
+  
+ 
+/* design and coding skills */
 .skill_list li {
     list-style: none;
 }
@@ -299,28 +407,16 @@ h3 {
 h5{
     display: flex;  
     position: relative;  
+    font-weight: 800;
+    justify-content: space-between;
+    justify-items: left;
+    
 
 }
-/* .progress {
-    margin: 10px 0 20px;
-    display: block;
-    height: 5px;
-    position: relative;
-    width: 100%;
-    overflow: visible;
-    border-radius: 50px;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    background: #dfdfdf;
-    box-shadow: 0;
-} */
 .span{
-    
-      
-    
-
+    display: inline;
+    justify-content: end;
+    align-items: flex-end;
 }
 .progress_container {
     width: 100%;
@@ -352,40 +448,6 @@ h5{
   }
   
 
-  .App {
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
-}
 
-.circle-container {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.circle {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%; /* Makes it circular */
-  background: conic-gradient(
-    yellow 0deg 0deg, /* Initial empty progress */
-    transparent 0deg 360deg
-  );
-  border: 8px solid yellow; /* Yellow border around the circle */
-  box-sizing: border-box;
-}
-
-input[type="range"] {
-  margin-top: 20px;
-  width: 100%;
-  max-width: 200px;
-}
 
