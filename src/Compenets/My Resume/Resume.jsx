@@ -146,64 +146,61 @@ const Resume = () => {
             </div>
       </div>
       <hr />
-      <section>
+    <section className="design">
       <div className="skill_category">
         <h2 className="skill2">Design</h2>
           <div className="skill3">
-                <div className="bar_info">
-                  <h5>Photoshop</h5><span className="span">80%</span>
-                </div>
-              <div className="progress_container" id="p80">
-                    <div className="progress_bar" style={{ width: `${80}%` }}></div>
-                </div>
-            <div className="bar_info">
-                <h5>Sketch</h5><span>50</span>%
-              </div>
-              <div className="progress_container" id="p50">
-                    <div className="progress_bar" style={{ width: `${50}%` }}></div>
-                </div>
-           
-            
-            <div className="bar_info">
-                <h5>Figma</h5><span>70</span>%
-              </div>
-              <div className="progress_container" id="p70">
-                    <div className="progress_bar" style={{ width: `${70}%` }}></div>
-                </div>
-           
-         
+              <div class="progress-bar-container">
+                  <h4 class="progress-title">Photoshop<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${80}%` }}></div>
+                  </div>
+             </div>
+             <div class="progress-bar-container">
+                  <h4 class="progress-title">Sketch<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${50}%` }}></div>
+                  </div>
+             </div>
+             <div class="progress-bar-container">
+                  <h4 class="progress-title">Figma<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${70}%` }}></div>
+                  </div>
+             </div>
         </div>
       </div>
-      </section>
+      
       <div className="skill_category">
         <h2 className="skill2">Coding</h2>
         <div className="skill3">
           
             
-              <div className="bar_info">
-                <h5>JavaScript</h5><span>80</span>%
-              </div>
-              <div className="progress_container" id="p80">
-                    <div className="progress_bar" style={{ width: `${80}%` }}></div>
-                </div>
+        <div class="progress-bar-container">
+                  <h4 class="progress-title">JavaScript<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${80}%` }}></div>
+                  </div>
+             </div>
             
             
-            <div className="bar_info">
-                <h5>Html5</h5><span>50</span>%
-              </div>
-              <div className="progress_container" id="p50">
-                    <div className="progress_bar" style={{ width: `${50}%` }}></div>
-                </div>
+             <div class="progress-bar-container">
+                  <h4 class="progress-title">Html<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${50}%` }}></div>
+                  </div>
+             </div>
            
-            <div className="bar_info">
-                <h5>CSS</h5><span>70</span>%
-              </div>
-              <div className="progress_container" id="p70">
-                    <div className="progress_bar" style={{ width: `${70}%` }}></div>
-                </div>
+             <div class="progress-bar-container">
+                  <h4 class="progress-title">CSS<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${70}%` }}></div>
+                  </div>
+             </div>
         
         </div>
       </div>
+      </section>
       
 
      
