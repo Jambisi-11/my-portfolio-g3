@@ -1,7 +1,8 @@
 .Gridcontainer{
+    height: 100vh;
     margin:auto;
     box-sizing: border-box;
-    background-color: rgb(228, 228, 225);
+    color: aliceblue;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr); 
@@ -9,15 +10,18 @@
     padding: 5px 5px;
     margin-bottom: 2em;
 }
-/*  I added this styles. uncommented them to see how it will look like. */
+
 .Gridcontainer img{
     margin-top: 2em;
     width: 85%;
     height: 85%;
     object-fit: cover;
     border-radius: 15px;
+
     
 }
+
+
 
 .image{
     display: flex;
@@ -30,11 +34,34 @@
     margin:auto;
     padding-top: 8px;
     object-fit:contain;
-    /* transition-duration: 1s;
-    transition: all;
-    transition: ease-in-out; */
 }
-/*  I added this styles. uncommented them to see how it will look like. */
+
+.info{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    overflow-x: hidden;
+    margin:auto;
+    padding-top: 8px;
+    object-fit:contain;
+    color: white;
+}
+.htag{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color:yellow; 
+}
+.ptag{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color:aliceblue; 
+}
+
 .word{
     color: black;
     display: flex;
@@ -46,4 +73,6 @@ h2{
     color: black;
     display: flex;
     justify-content: center;
+
 }
+
