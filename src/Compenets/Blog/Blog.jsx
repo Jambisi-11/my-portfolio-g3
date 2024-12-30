@@ -3,10 +3,8 @@ import './Blog.css'
 import BlogImage from './BlogImage'
 const Blog = () => {
   return (
-    <>
-    {/* <div className='blogheader'>Blog
-    <Nav />
-    </div>  */}
+    <div>
+   
     <div>
      <BlogImage/>  
     </div> 
@@ -18,7 +16,7 @@ const Blog = () => {
         </div>
     </div>
     </div>
-    </>
+  
 
   )
 }

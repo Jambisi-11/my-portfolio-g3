@@ -30,6 +30,7 @@ const App = () => {
  
 
       <Router>
+          <Nav/>
             <Routes>
                 <Route path='/'  element={<Home />} />
                 <Route path='/Resume'  element={<Resume />} />
