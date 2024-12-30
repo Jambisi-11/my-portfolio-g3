@@ -17,11 +17,7 @@
     height: 85%;
     object-fit: cover;
     border-radius: 15px;
-
-    
 }
-
-
 
 .image{
     display: flex;
@@ -73,6 +69,5 @@ h2{
     color: black;
     display: flex;
     justify-content: center;
-
 }
 
