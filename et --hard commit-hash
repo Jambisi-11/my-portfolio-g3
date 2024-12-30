@@ -1,0 +1,10 @@
+[33mdb05bea[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mblog[m[33m)[m HEAD@{0}: commit: read blog links added to Blog
+[33m7685647[m HEAD@{1}: pull origin main: Fast-forward
+[33mff715e3[m HEAD@{2}: pull origin main: Fast-forward
+[33m0ae3a36[m[33m ([m[1;31morigin/blog[m[33m)[m HEAD@{3}: commit: updated
+[33mbcb3e00[m HEAD@{4}: commit: my-portfolio-blog
+[33m19ab973[m[33m ([m[1;32mmain[m[33m, [m[1;32mfeatures/blog[m[33m)[m HEAD@{5}: checkout: moving from features/blog to blog
+[33m19ab973[m[33m ([m[1;32mmain[m[33m, [m[1;32mfeatures/blog[m[33m)[m HEAD@{6}: checkout: moving from main to features/blog
+[33m19ab973[m[33m ([m[1;32mmain[m[33m, [m[1;32mfeatures/blog[m[33m)[m HEAD@{7}: commit: my-portfolio-blog
+[33m8911e9e[m HEAD@{8}: pull origin main: Fast-forward
+[33mb0e4a07[m HEAD@{9}: clone: from https://github.com/Jambisi-11/my-portfolio-g3
