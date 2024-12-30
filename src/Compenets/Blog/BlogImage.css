@@ -10,14 +10,14 @@
     padding: 5px 5px;
     margin-bottom: 2em;
 }
-/*  I added this styles. uncommented them to see how it will look like.*/
+
 .Gridcontainer img{
     margin-top: 2em;
     width: 85%;
     height: 85%;
     object-fit: cover;
     border-radius: 15px;
-} 
+}
 
 .image{
     display: flex;
@@ -31,6 +31,7 @@
     padding-top: 8px;
     object-fit:contain;
 }
+
 .info{
     display: flex;
     justify-content: center;
@@ -56,6 +57,7 @@
     justify-items: center;
     color:aliceblue; 
 }
+
 .word{
     color: black;
     display: flex;
@@ -67,5 +69,5 @@ h2{
     color: black;
     display: flex;
     justify-content: center;
-} 
+}
 
