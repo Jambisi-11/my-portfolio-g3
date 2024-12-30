@@ -5,13 +5,16 @@
   top: 6em;
   right: 12em;
   z-index: 888;
-  border-radius: 30px;
-  width: 3em; 
-  height: 3em; 
+  border-radius: 35px;
+  width: 3.3em; 
+  height: 3.3em; 
+  object-fit: cover;
+
 
 } 
 
 .nav__circle {
+  
   position: fixed;
   top: 9em;
   right: 10em;
@@ -19,6 +22,7 @@
   display: flex;
   flex-direction: column; 
   align-items: center; 
+  
 }
 
 
@@ -41,16 +45,19 @@
 
 
 .menu-tab ul {
-  list-style-type: none; 
-  padding: 0; 
-  margin: 0; 
+  
   text-align: right;
+  background-color: black;
+  border-radius: 10px;
+  width: 4em;
+  
+  
 }
 
 
 .menu-tab li {
   margin-bottom: 10px; 
-  list-style: none;
+  list-style: none; 
   
 }
 
