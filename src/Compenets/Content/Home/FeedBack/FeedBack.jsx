@@ -11,28 +11,29 @@ const FeedBack = () => {
         </div>
             <div>
             <div className='grid grid-cols-3 gap-4' >
-            <div className='flex gap-4' id='slide-1'>
-              <div className=''>
-                <img src = {qmark}></img>
-                  <p >I would gladly pay over 600 dollars for tavonline. Tavonline has really helped our business. I like tavonline more and more each day because it makes my life a lot easier.</p> 
-                  Louis L. Marin
-                  Founder
-              </div>
+                <div className='flex gap-4' id='slide-1'>
+                
+                    <div className=''>
+                        <img src = {qmark}></img>
+                        <p >I would gladly pay over 600 dollars for tavonline. Tavonline has really helped our business. I like tavonline more and more each day because it makes my life a lot easier.</p> 
+                        Louis L. Marin
+                        Founder
+                    </div>
               
-              <div>
-                <img src = {qmark}></img>
-                  <p className='flex gap-4'>I would gladly pay over 600 dollars for tavonline. Tavonline has really helped our business. I like tavonline more and more each day because it makes my life a lot easier.</p> 
-                  Louis L. Marin
-                  Founder
-              </div>
+                    <div>
+                        <img src = {qmark}></img>
+                        <p className='flex gap-4'>I would gladly pay over 600 dollars for tavonline. Tavonline has really helped our business. I like tavonline more and more each day because it makes my life a lot easier.</p> 
+                        Louis L. Marin
+                        Founder
+                    </div>
 
-              <div>
-                <img src = {qmark} className=''></img>
-                  <p >I would gladly pay over 600 dollars for tavonline. Tavonline has really helped our business. I like tavonline more and more each day because it makes my life a lot easier.</p> 
-                  Louis L. Marin
-                  Founder
-              </div>
-          </div>
+                    <div>
+                        <img src = {qmark} className=''></img>
+                        <p >I would gladly pay over 600 dollars for tavonline. Tavonline has really helped our business. I like tavonline more and more each day because it makes my life a lot easier.</p> 
+                        Louis L. Marin
+                        Founder
+                    </div>
+                </div>
 
           {/* <div className='slide-2'>
           <div>
