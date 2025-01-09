@@ -2,7 +2,7 @@
 
 .whatIdo{
     margin-top: 5em;
-    margin-bottom:5em;
+   
     
 }
 
@@ -10,12 +10,12 @@
     text-decoration: underline;
     text-decoration-color: yellow;
     text-decoration-thickness: 0.2em;
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 2.5em;
 }
 
 .my-table{
-    width: 40em; 
+    width: 40em;
     margin-left: 1em ; 
     margin-bottom: 15px; 
     font-size: 18px;

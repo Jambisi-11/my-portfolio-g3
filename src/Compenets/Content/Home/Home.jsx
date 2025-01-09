@@ -25,8 +25,8 @@ const Home = () => {
               <div className='second_cont'>
                   <div className='cont_cont'>
                       <p>Hello Everyone 👋</p>
-                      <h3 >I'm Ajide O. James</h3>
-                      <h3>I am a <span id='word_effect'>Missionary</span></h3>
+                      <h4 >I'm Ajide O. James</h4>
+                      <h4>I am a <span id='word_effect'>Missionary</span></h4>
                   </div>
                
               </div>
@@ -46,7 +46,7 @@ const Home = () => {
       </div>
 
       <WhatIDo />
-      <FeedBack />
+      {/* <FeedBack /> */}
       <WhatPeople/>
        
     </div>
