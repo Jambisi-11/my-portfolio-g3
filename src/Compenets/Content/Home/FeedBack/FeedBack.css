@@ -1,6 +1,6 @@
 .feed-title{
-     margin-top: 5em;
-    margin-bottom:5em;  
+     /* margin-top: 5em;
+    margin-bottom:5em;   */
 }
 
 .feed-title h3 {
@@ -8,8 +8,7 @@
     text-decoration-color: yellow;
     text-decoration-thickness: 0.2em;
     font-size: 30px;
-    margin-bottom: 2.5em;
-
+    
     
     font-weight: 600;
     position: relative;
@@ -29,7 +28,5 @@
     flex-wrap: wrap; */
 }
 
-#slide-1{
-    
-    padding-top: 7em;
-}
+
+   

@@ -1,6 +1,6 @@
 import React  from 'react'
 import "./Resume.css"
-import Nav from '../Content/Home/Nav/Nav'
+
 const Resume = () => {
 
 

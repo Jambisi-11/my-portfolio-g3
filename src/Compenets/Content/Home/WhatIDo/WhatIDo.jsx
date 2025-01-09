@@ -10,7 +10,7 @@ const WhatIDo = () => {
   return (
     <div>
       <div className='whatIdo'>
-        <h3>What I Do</h3>
+        <h3 className='font-bold underline-offset-8'>What I Do</h3>
         {/* <ul className='do-1'>
           <li><img src={Christ} alt="cross" />Practise Christianity</li>
           <li><img src={Preach} alt="Preach" />Preach The Word of God</li>
