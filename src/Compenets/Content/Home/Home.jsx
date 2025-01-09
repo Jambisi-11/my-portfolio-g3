@@ -9,6 +9,7 @@ import at from '../../../assets/@logo.png'
 import dob from '../../../assets/dob.png'
 import navigation from '../../../assets/navigation.png'
 import whats from '../../../assets/whats.png'
+import WhatPeople from './FeedBack/WhatPeople';
 
 
 const Home = () => {
@@ -46,6 +47,7 @@ const Home = () => {
 
       <WhatIDo />
       <FeedBack />
+      <WhatPeople/>
        
     </div>
   )
