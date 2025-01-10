@@ -282,17 +282,18 @@ const WhatPeople = () => {
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
       >
         {slides.map((group, index) => (
-          <div key={index} className="min-w-full flex justify-around gap-8">
+          <div key={index} className="min-w-full flex justify-around gap-5">
             {group.map((testimonial, i) => (
-              <div key={i} className="flex flex-col items-start">
+                <div key={i} className="flex flex-col items-start max-w-7xl mx-auto px-3 ">
                     <div className="flex gap-4">
-                    <div> <img className="max-w-24 mb-4" src={qmark} alt="Quote Icon" /></div>
-                    <div>
-                    <p className="text-left mb-4">{testimonial.quote}</p></div>
+                        <div>
+                        <img className="max-w-24 mb-4" src={qmark} alt="Quote Icon" /></div>
+                        <div>
+                        <p className="text-left mb-4 border-b border-b-gray-800 p-4">{testimonial.quote}</p></div>
                     </div>
                
                 
-                  <div className="flex gap-4 ml-14">
+                  <div className="flex gap-4 ml-16">
                   <img
                     className="w-[50px] h-[50px] rounded-full"
                     src={james}

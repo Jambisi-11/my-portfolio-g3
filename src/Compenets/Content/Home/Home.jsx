@@ -10,6 +10,7 @@ import dob from '../../../assets/dob.png'
 import navigation from '../../../assets/navigation.png'
 import whats from '../../../assets/whats.png'
 import WhatPeople from './FeedBack/WhatPeople';
+import Brand from './Brand/Brand';
 
 
 const Home = () => {
@@ -48,6 +49,7 @@ const Home = () => {
       <WhatIDo />
       {/* <FeedBack /> */}
       <WhatPeople/>
+      <Brand/>
        
     </div>
   )
