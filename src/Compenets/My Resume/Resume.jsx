@@ -6,6 +6,7 @@ const Resume = () => {
 
  
   return (
+    <div className="flex justify-center items-center">
     <div className = "resume_container">
     
       <h1 className = "resume_heading">My Resume</h1>
@@ -204,7 +205,7 @@ const Resume = () => {
       
 
      
-      
+      </div>
     </div>
   )
 }
