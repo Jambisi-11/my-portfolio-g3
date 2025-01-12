@@ -20,6 +20,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 const App = () => {
   return (
     <div>
+    <div className="flex justify-center items-center">
+      <div className='w-[85%]'>
       {/* <Home />
       <Footer />
       <Resume />
@@ -48,6 +50,8 @@ const App = () => {
       </Router> 
       
       <Footer /> 
+    </div>
+    </div>
     </div>
   )
 }

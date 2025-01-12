@@ -7,14 +7,13 @@
     background-color: #000000;
     max-width: 100%;
 }
-
+/* 
 .resume_heading{
     text-decoration: underline #E6FF00 solid;
-    text-align: left;
-    text-transform: uppercase
-    ;
+     text-align: left; 
+    text-transform: uppercase;
+} */
 
-}
 .headdiv{
     display: flex;
     padding: 10px;
@@ -37,13 +36,13 @@
 /* I added vertical divider here */
 .vertical-line {
     border-left: 2px solid rgb(253, 216, 7); 
-    height: 800px; 
+    height: 850px; 
     border-color: #E0F802;
   }
 
   .vertical-line2 {
     border-left: 2px solid rgb(253, 216, 7); 
-    height: 550px; 
+    height: 580px; 
     border-color: #E0F802;
   }
 
@@ -73,26 +72,14 @@ background-color: #333333;
 padding: 25px;
 border-radius: 12px;
 flex-direction: column;
-max-width: 400px; /* 400 to  */
-margin-top: 0px;
+max-width: 500px; /* 400 to  */
+margin-top: 10px;
 margin-bottom: 10px;
-/* margin-left: auto; */
-margin-left: 200px; /* I changed this one from 10px to 200px*/
+/* margin-left: auto; 
+margin-left: 200px; I changed this one from 10px to 200px*/
 
 }
-.empty1{
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    background-color: #333333;
-    margin: 10px 15px;
-    padding: 25px;
-    border-radius: 12px;
-    flex-direction: column;
-    max-width: 400px;
-    visibility: hidden;
 
-}
 .heading{
     font-size: small;
     color: #E0F802;
@@ -104,31 +91,31 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
     display: flex;
     align-items: baseline;
     justify-content: center;
-    margin-left: 200px; /* I changed this one from 10px to 200px*/
+    margin-right: 20px;  
 
     background-color: #333333;
     /* margin: 10px 15px; */
     padding: 25px;
     border-radius: 12px;
     flex-direction: column;
-    max-width: 400px;
-    margin-top: 110px; /* I added this, to bring it down*/
+    max-width: 500px;
+    margin-top: 160px; /* I added this, to bring it down*/
 
     
     }
     .resume_info_content3{
-        display: flex;
+        /* display: flex; */
         /* align-items: baseline;        left*/
         justify-content: center;
         background-color: #333333;
         margin-left:20px;
-        margin-top: 110px; /* I added this, to bring it down*/
+        margin-top: 200px; /* I added this, to bring it down*/
 
         scroll-margin-top: 5em;
         padding: 25px;
         border-radius: 12px;
         flex-direction: column;
-        max-width: 400px;
+        max-width: 500px;
         break-before: column;
         
         
@@ -142,7 +129,8 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
             padding: 25px;
             border-radius: 12px;
             flex-direction: column;
-            max-width: 400px;
+            margin-left:20px;
+            max-width: 500px;
             margin-top: 150px; /* I added this, to bring it down*/
             
             
@@ -152,13 +140,13 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
                 align-items: baseline;
                 justify-content: center;
                 background-color: #333333;
-                margin: 10px 15px;
+                margin-right: 20px;
                 padding: 25px;
                 border-radius: 12px;
                 flex-direction: column;
-                max-width: 400px;
-                margin-top: 150px; /* I added this, to bring it down*/
-                margin-left: 200px; /* I changed this one from 10px to 200px*/
+                max-width: 500px;
+                margin-top: 160px; /* I added this, to bring it down*/
+                /*margin-left: 200px;  I changed this one from 10px to 200px*/
 
                 
                 }

@@ -7,14 +7,13 @@ const Resume = () => {
  
   return (
     <div className="flex justify-center items-center">
+    <div className='w-[90%]'>
     <div className = "resume_container">
-    
-      <h1 className = "resume_heading">My Resume</h1>
-               <div className="headdiv"><h4 className = "head">👨‍💻 Works Experiences</h4></div>
+        <h3 className='font-bold underline-offset-8 text-2xl'>Resume</h3>
+          <div className="headdiv"><h4 className = "head">👨‍💻 Works Experiences</h4></div>
       
       <div className ="resume_info">
           <div className='column-left'>
-
             <div className = "resume_info_content1" id='info1'>
                 <h6 className = "heading">2008-Present</h6>
                 <h3>Art Director-Facebook Inc</h3>
@@ -202,9 +201,7 @@ const Resume = () => {
         </div>
       </div>
       </section>
-      
-
-     
+      </div>
       </div>
     </div>
   )

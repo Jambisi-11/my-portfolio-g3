@@ -1,6 +1,6 @@
 .body-cont {
   background-color: black;
-  width: 90%;
+  width: 100%;
   min-height: 250vh;
   /* margin-left: 6.5em; */
   
@@ -112,7 +112,7 @@
   display: flex;                          
   flex-wrap: wrap;                      
   align-items: center;                   
-  gap: 2.5em;                              
+  gap: 3.3em;                              
   margin-top: 2em;                       
   padding-top: 2em;                      
   border-top: 1px solid rgba(192, 187, 187, 0.548); 
@@ -128,7 +128,7 @@
 
 
 .details img {
-  margin-right: 0.5em;                   
+  margin-right: 0.2em;                   
 }
 
 
