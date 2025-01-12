@@ -14,19 +14,9 @@ import Brand from './Brand/Brand';
 
 
 const Home = () => {
-  const words = ["designer", "manager", "developer", "creator"];
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % words.length); // Cycle through words
-    }, 2000); // Change every 2 seconds
-
-    return () => clearInterval(interval); // Cleanup on component unmount
-  }, []);
-
+  
   return (
-    <div className="flex justify-center items-center">
+    // <div className="flex justify-center items-center">
     <div className='body-cont'>
       <div className='Main_container'>
           <div className='image__container'>
@@ -62,7 +52,8 @@ const Home = () => {
       <WhatPeople/>
       <Brand/>
       </div>
-    </div>
+    // </div>
+  
   )
 }
 
