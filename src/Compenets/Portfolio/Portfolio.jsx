@@ -29,7 +29,7 @@ const Portfolio = () => {
       <h3 className='font-bold underline-offset-8 mt-[50px] text-2xl'>Portfolio</h3>
       <div>
         <ul className='flex gap-8 text-xl'>
-          <li>All Works</li>
+          <li><a href='####'>All Works</a></li>
           <li>Photography</li>
           <li>Branding</li>
           <li>Other</li>
