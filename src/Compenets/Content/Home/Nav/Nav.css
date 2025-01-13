@@ -17,7 +17,7 @@
   
   position: fixed;
   top: 9em;
-  right: 10em;
+  right: 6em;
   z-index: 1000;
   display: flex;
   flex-direction: column; 
@@ -40,18 +40,14 @@
   position: sticky; 
   top: 10px; 
   z-index: 1000; 
-
 }
 
 
 .menu-tab ul {
-  
   text-align: right;
   background-color: black;
   border-radius: 10px;
-  width: 4em;
-  
-  
+  width: 4em; 
 }
 
 
@@ -65,61 +61,3 @@
   color: yellow;
   text-decoration: none; 
 } 
-
-/* 
-.nav__cirlce img{
-    width: 100%;
-    height: 100%;
-    border-radius: 60px; 
-    
-  }
-
-  .cont_cont h3{
-    margin: 0;
-    font-size: 2.5em;
-  }
-
-
-  
-#nav_icon {
-  width: 3.5em; 
-  height: 3.5em; 
-  display: flex;
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  position: sticky; 
-  top: 10px; 
-  z-index: 1000; 
-
-}
-
-
-.menu-tab {
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  padding: 10px; 
-  margin-top: 0;
-  margin-right: 20px;
-  padding-right: 20px;
-}
-
-
-.menu-tab ul {
-  list-style-type: none; 
-  padding: 0; 
-  margin: 0; 
-  text-align: right;
-}
-
-
-.menu-tab li {
-  margin-bottom: 10px; 
-  list-style: none;
-}
-
-.menu-tab a {
-  color: yellow;
-  text-decoration: none; 
-} */
