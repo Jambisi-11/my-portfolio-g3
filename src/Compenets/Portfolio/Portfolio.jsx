@@ -43,7 +43,7 @@ const Portfolio = () => {
                     alt={item.text}
                     className="w-full h-[230px] rounded-lg border border-gray-300"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity transition ease-in duration-1000">
+                  <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity transition ease-in duration-1000">
                     <span className="text-white text-lg font-bold">{item.text} <br></br>{item.text2} </span>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ const Portfolio = () => {
                 key={index}
                 src={item.src}
                 controls
-                className='w-full h-[230px] rounded-lg border border-gray-300'
+                className='w-full h-[230px] rounded-lg border border-gray-300 '
                 autoPlay
                 loop
                 muted
