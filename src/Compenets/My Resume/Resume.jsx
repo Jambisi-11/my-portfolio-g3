@@ -7,7 +7,7 @@ const Resume = () => {
  
   return (
     <div className="flex justify-center items-center">
-    <div className='w-[90%]'>
+    <div className='w-[95%]'>
     <div className = "resume_container">
         <h3 className='font-bold underline-offset-8 text-2xl'>Resume</h3>
           <div className="headdiv"><h4 className = "head">👨‍💻 Works Experiences</h4></div>
