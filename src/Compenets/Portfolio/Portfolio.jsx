@@ -26,18 +26,19 @@ const Portfolio = () => {
   return (
     <div className="flex justify-center items-center">
     <div className='w-[100%] h-auto'>
-      <h3 className='font-bold underline-offset-8 mt-[50px] text-2xl'>Portfolio</h3>
+       <h3 className='font-bold underline-offset-8 mt-[50px] text-2xl'>Portfolio</h3>
       <div>
         <ul className='flex gap-8 text-xl'>
           <li><a href='####'>All Works</a></li>
-          <li>Photography</li>
-          <li>Branding</li>
-          <li>Other</li>
+          <li><a href=''>Photography</a></li>
+          <li><a href=''>Branding</a></li>
+          <li><a href=''>Other</a></li>
         </ul>
         <div className='grid grid-cols-3 gap-8 mt-16'>
           {media.map((item, index) =>
             item.type === 'image' ? (
               <div className="relative group w-full">
+
                   <img
                     src={item.src}
                     alt={item.text}
