@@ -3,8 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-    footer
-    </div>
+    
       <div className='flex gap-8 justify-between mt-[100px]'>
       <div>Copyright, SEFE Group-3, Cohort-4.0 2025- All right reserve</div>
       <div> 

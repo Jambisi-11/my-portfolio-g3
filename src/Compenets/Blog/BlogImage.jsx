@@ -72,6 +72,8 @@ const BlogImage = () => {
         </p>
         <p className='ptag'>2 January, 2025</p>
       </div>
+
+      
     </div>
     </>
     
