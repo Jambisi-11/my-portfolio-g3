@@ -14,7 +14,11 @@ import { Routes, Route } from 'react-router-dom'; // Use Routes and Route direct
 const Blog = () => {
   return (
     <div>
+
+    <div>
+
       <div>
+
         <div className='blog'>
           <div className='Blog'>
             <BlogImage />
