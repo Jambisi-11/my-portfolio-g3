@@ -10,7 +10,7 @@ const BlogInfo1 = () => {
     <h2 className='infohtag2'>Study to Make Thyself Approved</h2>
     </div>
     <div>
-        <img  src={'../../../src/assets/Blogpics/hope.jpg'} className='w-50vw h-80% justify-center m-auto p-10 object-cover'/>
+      <img src={way} alt="Illustration of hope" className='w-50vw h-80% justify-center m-auto p-10 object-cover'/>
     </div>
     <h2 className='htag'><u><b>ETERNAL HOPE</b></u></h2>
     <p className='info'>

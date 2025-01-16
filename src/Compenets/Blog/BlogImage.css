@@ -21,13 +21,6 @@
     
 }
 
-.Gridcontainer img{
-    margin-top: 2em;
-    width: 90%;
-    height: 85%;
-    object-fit: cover;
-    border-radius: 15px;
-}
 
 .image{
     display: flex;
