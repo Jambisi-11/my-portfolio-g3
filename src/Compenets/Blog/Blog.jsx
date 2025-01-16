@@ -4,10 +4,6 @@ import BlogImage from './BlogImage'
 const Blog = () => {
   return (
     <div>
-   
-    <div>
-     <BlogImage/>  
-    </div> 
     <div>
         <div className='blog'>
             <div className='Blog'>

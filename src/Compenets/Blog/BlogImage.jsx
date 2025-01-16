@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 
 const BlogImage = () => {
   return (
+    <>
+    <div>
+      <header className='header'>  
+        <h2><u><b>Blog</b></u></h2>
+      </header>
+      </div>
     <div className='Gridcontainer'>
       <div>
         <img src={'../../../src/assets/Blogpics/hope.jpg'} className='image' alt="Eternal Hope" />
@@ -12,6 +18,7 @@ const BlogImage = () => {
           Admin/<a href="https://www.bible.com/app" target="_blank" rel="noopener noreferrer">Read Your Bible</a>/
           <Link to="/BlogInfo1">Read Blog</Link>
         </p>
+        <p className='ptag'>2 January, 2025</p>
       </div>
 
       <div>
@@ -21,6 +28,7 @@ const BlogImage = () => {
           Admin/<a href="https://www.bible.com/app" target="_blank" rel="noopener noreferrer">Read Your Bible</a>/
           <Link to="/BlogInfo2">Read Blog</Link>
         </p>
+        <p className='ptag'>2 January, 2025</p>
       </div>
 
       <div>
@@ -30,6 +38,7 @@ const BlogImage = () => {
           Admin/<a href="https://www.bible.com/app" target="_blank" rel="noopener noreferrer">Read Your Bible</a>/
           <Link to="/BlogInfo3">Read Blog</Link>
         </p>
+        <p className='ptag'>2 January, 2025</p>
       </div>
 
       <div>
@@ -39,6 +48,7 @@ const BlogImage = () => {
           Admin/<a href="https://www.bible.com/app" target="_blank" rel="noopener noreferrer">Read Your Bible</a>/
           <Link to="/BlogInfo4">Read Blog</Link>
         </p>
+        <p className='ptag'>2 January, 2025</p>
       </div>
 
       <div>
@@ -48,6 +58,7 @@ const BlogImage = () => {
           Admin/<a href="https://www.bible.com/app" target="_blank" rel="noopener noreferrer">Read Your Bible</a>/
           <Link to="/BlogInfo5">Read Blog</Link>
         </p>
+        <p className='ptag'>2 January, 2025</p>
       </div>
 
       <div>
@@ -57,8 +68,11 @@ const BlogImage = () => {
           Admin/<a href="https://www.bible.com/app" target="_blank" rel="noopener noreferrer">Read Your Bible</a>/
           <Link to="/BlogInfo6">Read Blog</Link>
         </p>
+        <p className='ptag'>2 January, 2025</p>
       </div>
     </div>
+    </>
+    
   );
 };
 
