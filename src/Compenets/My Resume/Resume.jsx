@@ -1,19 +1,19 @@
 import React  from 'react'
 import "./Resume.css"
-import Nav from '../Content/Home/Nav/Nav'
+
 const Resume = () => {
 
 
  
   return (
+    <div className="flex justify-center items-center">
+    <div className='w-[95%]'>
     <div className = "resume_container">
-    
-      <h1 className = "resume_heading">My Resume</h1>
-               <div className="headdiv"><h4 className = "head">👨‍💻 Works Experiences</h4></div>
+        <h3 className='font-bold underline-offset-8 text-2xl'>Resume</h3>
+          <div className="headdiv"><h4 className = "head">👨‍💻 Works Experiences</h4></div>
       
       <div className ="resume_info">
           <div className='column-left'>
-
             <div className = "resume_info_content1" id='info1'>
                 <h6 className = "heading">2008-Present</h6>
                 <h3>Art Director-Facebook Inc</h3>
@@ -75,7 +75,7 @@ const Resume = () => {
             </div>
         </div>
         {/* I added this */}
-        <div class="vertical-line2"></div> 
+        <div className="vertical-line2"></div> 
 
 
         <div className='column-right'>
@@ -99,95 +99,110 @@ const Resume = () => {
            <div><h1 className = "mySkills">My Skills</h1></div>
             <div className="skill_category">
               <h2 className="lang">Language</h2>
-               <div className="eng">
-                <div className="chart" data-percent="92" data-scale-color="yellow">
-                   <span className="span1">92</span>%
-                </div>
-                 <h5 className="skill1">English</h5>
+                      <div className="chart">
+                      <div class="circular-progress1">
+                        <div class="inner"></div>
+                        <svg viewBox="0 0 100 100">
+                          <path d="M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0" stroke-width="8" stroke-miterlimit="10" stroke-dasharray="283" />
+                        </svg>
+                        <span class="progress-text">90%</span>
+                      </div>
+                <br />
+                   <h5 className="skill1">English</h5>
                </div>
-               <div>
-                <div className="chart" data-percent="70" data-scale-colr="yellow">
-                   <span className="span1">70</span>%
-                   <h5 className="skill1">French</h5>
-                </div>
-                </div>
-                <div>
-                <div className="chart" data-percent="30" data-scale-color="yellow">
-                   <span className="span1">30</span>%
+               <div className="chart">
+                      <div class="circular-progress2">
+                        <div class="inner"></div>
+                        <svg viewBox="0 0 100 100">
+                          <path d="M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0" stroke-width="8" stroke-miterlimit="10" stroke-dasharray="283" />
+                        </svg>
+                        <span class="progress-text">55%</span>
+                      </div>
+                <br />
+                   <h5 className="skill1">Spanish</h5>
+               </div>
+               <div className="chart">
+                      <div class="circular-progress3">
+                        <div class="inner"></div>
+                        <svg viewBox="0 0 100 100">
+                          <path d="M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0" stroke-width="8" stroke-miterlimit="10" stroke-dasharray="283" />
+                        </svg>
+                        <span class="progress-text">80%</span>
+                      </div>
+                <br />
                    <h5 className="skill1">Yoruba</h5>
-                </div>
-                </div>
-                <div>
-                <div className="chart" data-percent="10" data-scale-color="yellow">
-                   <span className="span1">10</span>%
-                   <h5 className="skill1">Igbo</h5>
-                </div>
-                </div>
+               </div>
+               <div className="chart">
+                      <div class="circular-progress4">
+                        <div class="inner"></div>
+                        <svg viewBox="0 0 100 100">
+                          <path d="M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0" stroke-width="8" stroke-miterlimit="10" stroke-dasharray="283" />
+                        </svg>
+                        <span class="progress-text">60%</span>
+                      </div>
+                <br />
+                   <h5 className="skill1">French</h5>
+               </div>
             </div>
       </div>
       <hr />
-      <section>
+    <section className="design">
       <div className="skill_category">
         <h2 className="skill2">Design</h2>
           <div className="skill3">
-                <div className="bar_info">
-                  <h5>Photoshop</h5><span className="span">80%</span>
-                </div>
-              <div className="progress_container" id="p80">
-                    <div className="progress_bar" style={{ width: `${80}%` }}></div>
-                </div>
-            <div className="bar_info">
-                <h5>Sketch</h5><span>50</span>%
-              </div>
-              <div className="progress_container" id="p50">
-                    <div className="progress_bar" style={{ width: `${50}%` }}></div>
-                </div>
-           
-            
-            <div className="bar_info">
-                <h5>Figma</h5><span>70</span>%
-              </div>
-              <div className="progress_container" id="p70">
-                    <div className="progress_bar" style={{ width: `${70}%` }}></div>
-                </div>
-           
-         
+              <div class="progress-bar-container">
+                  <h4 class="progress-title">Photoshop<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${80}%` }}></div>
+                  </div>
+             </div>
+             <div class="progress-bar-container">
+                  <h4 class="progress-title">Sketch<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${50}%` }}></div>
+                  </div>
+             </div>
+             <div class="progress-bar-container">
+                  <h4 class="progress-title">Figma<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${70}%` }}></div>
+                  </div>
+             </div>
         </div>
       </div>
-      </section>
+      
       <div className="skill_category">
         <h2 className="skill2">Coding</h2>
         <div className="skill3">
           
             
-              <div className="bar_info">
-                <h5>JavaScript</h5><span>80</span>%
-              </div>
-              <div className="progress_container" id="p80">
-                    <div className="progress_bar" style={{ width: `${80}%` }}></div>
-                </div>
+        <div class="progress-bar-container">
+                  <h4 class="progress-title">JavaScript<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${80}%` }}></div>
+                  </div>
+             </div>
             
             
-            <div className="bar_info">
-                <h5>Html5</h5><span>50</span>%
-              </div>
-              <div className="progress_container" id="p50">
-                    <div className="progress_bar" style={{ width: `${50}%` }}></div>
-                </div>
+             <div class="progress-bar-container">
+                  <h4 class="progress-title">Html<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${50}%` }}></div>
+                  </div>
+             </div>
            
-            <div className="bar_info">
-                <h5>CSS</h5><span>70</span>%
-              </div>
-              <div className="progress_container" id="p70">
-                    <div className="progress_bar" style={{ width: `${70}%` }}></div>
-                </div>
+             <div class="progress-bar-container">
+                  <h4 class="progress-title">CSS<span class="progress-percentage">60%</span></h4>
+                  <div class="progress-bar">
+                    <div class="progress" style={{ width: `${70}%` }}></div>
+                  </div>
+             </div>
         
         </div>
       </div>
-      
-
-     
-      
+      </section>
+      </div>
+      </div>
     </div>
   )
 }

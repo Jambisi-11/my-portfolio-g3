@@ -1,8 +1,8 @@
-
+/* 
 
 .whatIdo{
     margin-top: 5em;
-    margin-bottom:5em;
+   
     
 }
 
@@ -10,12 +10,12 @@
     text-decoration: underline;
     text-decoration-color: yellow;
     text-decoration-thickness: 0.2em;
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 2.5em;
 }
 
 .my-table{
-    width: 40em; 
+    width: 40em;
     margin-left: 1em ; 
     margin-bottom: 15px; 
     font-size: 18px;
@@ -36,4 +36,24 @@
     margin-bottom: 1.5em;
     width: 67em;
     padding-left: 1em;
-}
+} */
+
+/* .whatIdo {
+  
+  }
+  
+  .activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .activity-item {
+    text-align: center;
+  }
+  
+  .activity-item img {
+    max-width: 100%;
+    height: auto;
+  }
+   */

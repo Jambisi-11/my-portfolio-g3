@@ -9,11 +9,14 @@ import at from '../../../assets/@logo.png'
 import dob from '../../../assets/dob.png'
 import navigation from '../../../assets/navigation.png'
 import whats from '../../../assets/whats.png'
+import WhatPeople from './FeedBack/WhatPeople';
+import Brand from './Brand/Brand';
 
 
 const Home = () => {
   
   return (
+    // <div className="flex justify-center items-center">
     <div className='body-cont'>
       <div className='Main_container'>
           <div className='image__container'>
@@ -24,8 +27,8 @@ const Home = () => {
               <div className='second_cont'>
                   <div className='cont_cont'>
                       <p>Hello Everyone 👋</p>
-                      <h3 >I'm Ajide O. James</h3>
-                      <h3>I am a <span id='word_effect'>Missionary</span></h3>
+                      <h4 >I'm Ajide O. James</h4>
+                      <h4>I am a <span id='word_effect'>Missionary</span></h4>
                   </div>
                
               </div>
@@ -45,9 +48,12 @@ const Home = () => {
       </div>
 
       <WhatIDo />
-      <FeedBack />
-       
-    </div>
+      {/* <FeedBack /> */}
+      <WhatPeople/>
+      <Brand/>
+      </div>
+    // </div>
+  
   )
 }
 

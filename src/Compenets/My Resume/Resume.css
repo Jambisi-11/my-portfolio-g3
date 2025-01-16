@@ -7,14 +7,13 @@
     background-color: #000000;
     max-width: 100%;
 }
-
+/* 
 .resume_heading{
     text-decoration: underline #E6FF00 solid;
-    text-align: left;
-    text-transform: uppercase
-    ;
+     text-align: left; 
+    text-transform: uppercase;
+} */
 
-}
 .headdiv{
     display: flex;
     padding: 10px;
@@ -37,13 +36,13 @@
 /* I added vertical divider here */
 .vertical-line {
     border-left: 2px solid rgb(253, 216, 7); 
-    height: 800px; 
+    height: 850px; 
     border-color: #E0F802;
   }
 
   .vertical-line2 {
     border-left: 2px solid rgb(253, 216, 7); 
-    height: 550px; 
+    height: 580px; 
     border-color: #E0F802;
   }
 
@@ -73,26 +72,14 @@ background-color: #333333;
 padding: 25px;
 border-radius: 12px;
 flex-direction: column;
-max-width: 400px; /* 400 to  */
-margin-top: 0px;
+max-width: 500px; /* 400 to  */
+margin-top: 10px;
 margin-bottom: 10px;
-/* margin-left: auto; */
-margin-left: 200px; /* I changed this one from 10px to 200px*/
+/* margin-left: auto; 
+margin-left: 200px; I changed this one from 10px to 200px*/
 
 }
-.empty1{
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    background-color: #333333;
-    margin: 10px 15px;
-    padding: 25px;
-    border-radius: 12px;
-    flex-direction: column;
-    max-width: 400px;
-    visibility: hidden;
 
-}
 .heading{
     font-size: small;
     color: #E0F802;
@@ -104,31 +91,31 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
     display: flex;
     align-items: baseline;
     justify-content: center;
-    margin-left: 200px; /* I changed this one from 10px to 200px*/
+    margin-right: 20px;  
 
     background-color: #333333;
     /* margin: 10px 15px; */
     padding: 25px;
     border-radius: 12px;
     flex-direction: column;
-    max-width: 400px;
-    margin-top: 110px; /* I added this, to bring it down*/
+    max-width: 500px;
+    margin-top: 160px; /* I added this, to bring it down*/
 
     
     }
     .resume_info_content3{
-        display: flex;
+        /* display: flex; */
         /* align-items: baseline;        left*/
         justify-content: center;
         background-color: #333333;
         margin-left:20px;
-        margin-top: 110px; /* I added this, to bring it down*/
+        margin-top: 200px; /* I added this, to bring it down*/
 
         scroll-margin-top: 5em;
         padding: 25px;
         border-radius: 12px;
         flex-direction: column;
-        max-width: 400px;
+        max-width: 500px;
         break-before: column;
         
         
@@ -142,7 +129,8 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
             padding: 25px;
             border-radius: 12px;
             flex-direction: column;
-            max-width: 400px;
+            margin-left:20px;
+            max-width: 500px;
             margin-top: 150px; /* I added this, to bring it down*/
             
             
@@ -152,13 +140,13 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
                 align-items: baseline;
                 justify-content: center;
                 background-color: #333333;
-                margin: 10px 15px;
+                margin-right: 20px;
                 padding: 25px;
                 border-radius: 12px;
                 flex-direction: column;
-                max-width: 400px;
-                margin-top: 150px; /* I added this, to bring it down*/
-                margin-left: 200px; /* I changed this one from 10px to 200px*/
+                max-width: 500px;
+                margin-top: 160px; /* I added this, to bring it down*/
+                /*margin-left: 200px;  I changed this one from 10px to 200px*/
 
                 
                 }
@@ -173,33 +161,27 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
                 }
 
 
-
+/* 
     h2{
         font-size: 1.6rem;
         line-height: 50px;
         font-weight: 600;
-    }
-
+        
+    } */
+/* language skill */
   .lang{
     font-size: 2.3rem;
     opacity: 0.3;
     letter-spacing: 9px;
     transform: rotate(90deg);
     height: 240px;
- /*    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg); */
+    color: #ffffff;
+ 
 } 
 .skill_category{
     display: flex;
     flex-wrap: wrap;
-
-
-    
    
-  
- 
 }
 .skill{
     margin: 0;
@@ -212,29 +194,29 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
     text-transform: capitalize;
     font-size: medium;
 }
-  /* .skill_category{
-        --bs-gutter-x: 0;
-        --bs-gutter-y: -1rem;
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: calc(-1 * var(--bs-gutter-y));
-        margin-right: calc(-.2 * var(--bs-gutter-x));
-        margin-left: calc(-.5 * var(--bs-gutter-x));
-        width: 100%;
-        height: 240px;
-        direction: ltr;} */
-       
-        
 
-/* .skill_category>* {
-    box-sizing: border-box;
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-top: var(--bs-gutter-y)
-} */
+
+
+
+.skill1{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+
+/* copied */
+.skill2{
+    font-size: 2.3rem;
+    opacity: 0.3;
+    letter-spacing: 9px;
+    transform: rotate(90deg);
+    height: 240px;
+    color: #ffffff;
+
+    
+    
+}
+
 
 .chart {
     position: relative;
@@ -246,146 +228,218 @@ margin-left: 200px; /* I changed this one from 10px to 200px*/
     text-align: center;
     background-color: #333333;
     margin-left: 40px;
-    
-
-  
-
+   
     
 }
-.span1 {
-    display: inline-block;
-    font-size: 18px;
-    line-height: 156px;
-    z-index: 2;
-    color: #fff;
-    font-weight: 800;
-}
-.skill1{
+.circular-progress {
+    position: relative;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+  }
+  
+  .circular-progress1 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .circular-progress2 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .circular-progress3 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .circular-progress4 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
 
-/* copied */
-.skill2{
-    font-size: 2.3rem;
-    opacity: 0.3;
-    letter-spacing: 9px;
+  .circular-progress svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circular-progress1 svg path {
+    stroke: #e5ff00;
+    fill: none;
     transform: rotate(90deg);
-    height: 240px;
-    
-    
-}
+    transform-origin: center;
+    stroke-dashoffset: 530;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
 
+  .circular-progress2 svg path {
+    stroke: #e5ff00;
+    fill: none;
+    transform: rotate(90deg);
+    transform-origin: center;
+    stroke-dashoffset: 440;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+
+  .circular-progress3 svg path {
+    stroke: #e5ff00;
+    fill: none;
+    transform: rotate(90deg);
+    transform-origin: center;
+    stroke-dashoffset: 500;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+
+  .circular-progress4 svg path {
+    stroke: #e5ff00;
+    fill: none;
+    transform: rotate(90deg);
+    transform-origin: center;
+    stroke-dashoffset: 460;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+  
+  .circular-progress1 .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+  }
+
+  .circular-progress2 .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+  }
+
+  .circular-progress3 .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+  }
+
+  .circular-progress4 .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+  }
+  
+ 
+/* design and coding skills */
 .skill_list li {
     list-style: none;
 }
 
-.bar_info{
-	display: flex;
-	width: 100%;
-    justify-items: end;
-    
-}
+
 .skill3{
     width: 500px;
         
 }
-h3 {
+/* h3 {
     font-size: 14px;
-	float: left;
+	  float: left;
     line-height: 26px;
-}
-
-h5{
-    display: flex;  
-    position: relative;  
-
-}
-/* .progress {
-    margin: 10px 0 20px;
-    display: block;
-    height: 5px;
-    position: relative;
-    width: 100%;
-    overflow: visible;
-    border-radius: 50px;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    background: #dfdfdf;
-    box-shadow: 0;
 } */
-.span{
-    
-      
-    
 
-}
-.progress_container {
+
+.progress-bar-container {
     width: 100%;
-    height: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f0f0f0;
-    position: relative;
-    
+    margin: 20px auto;
+    text-align: left;
   }
   
-  .progress_bar {
+  .progress-title {
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
     height: 100%;
-    background-color: #f2f755;
-    border-radius: 5px;
-    transition: width 0.5s ease-in-out;
+    background-color: #f6ff00;
     animation: progress 2s ease-in-out;
   }
   
-  
-  
- @keyframes  progress {
+  @keyframes progress {
     0% {
       width: 0;
     }
     100% {
-      width: 80%;
+      width: 60%;
     }
   }
   
+  .progress-percentage {
+    position: relative;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    float: right;
+    margin-top: 10px;
+  }
 
-  .App {
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
-}
 
-.circle-container {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.design{
+    display: flex;
 
-.circle {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%; /* Makes it circular */
-  background: conic-gradient(
-    yellow 0deg 0deg, /* Initial empty progress */
-    transparent 0deg 360deg
-  );
-  border: 8px solid yellow; /* Yellow border around the circle */
-  box-sizing: border-box;
-}
-
-input[type="range"] {
-  margin-top: 20px;
-  width: 100%;
-  max-width: 200px;
 }
 

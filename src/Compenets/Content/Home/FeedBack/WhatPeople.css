@@ -1,0 +1,38 @@
+.feed-title{
+    margin-top: 5em;
+   margin-bottom:5em;  
+}
+
+ h3 {
+   text-decoration: underline;
+   text-decoration-color: yellow;
+   text-decoration-thickness: 0.2em;
+   font-size: 20px;
+   margin-bottom: 2.5em;
+
+   
+   /* font-weight: 600;
+   position: relative;
+   display: inline-block;
+   letter-spacing: -1px;
+   line-height: 30px; */
+}
+
+
+.overflow-hidden {
+   overflow: hidden;
+ }
+ .flex {
+   display: flex;
+ }
+ .transition-transform {
+   transition: transform 1s ease-in-out;
+ }
+ .min-w-full {
+   min-width: 100%;
+ }
+ img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
