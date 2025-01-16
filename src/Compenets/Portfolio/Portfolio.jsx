@@ -26,24 +26,25 @@ const Portfolio = () => {
   return (
     <div className="flex justify-center items-center">
     <div className='w-[100%] h-auto'>
-      <h3 className='font-bold underline-offset-8 mt-[50px] text-2xl'>Portfolio</h3>
+       <h3 className='font-bold underline-offset-8 mt-[50px] text-2xl'>Portfolio</h3>
       <div>
         <ul className='flex gap-8 text-xl'>
           <li><a href='####'>All Works</a></li>
-          <li>Photography</li>
-          <li>Branding</li>
-          <li>Other</li>
+          <li><a href=''>Photography</a></li>
+          <li><a href=''>Branding</a></li>
+          <li><a href=''>Other</a></li>
         </ul>
         <div className='grid grid-cols-3 gap-8 mt-16'>
           {media.map((item, index) =>
             item.type === 'image' ? (
               <div className="relative group w-full">
+
                   <img
                     src={item.src}
                     alt={item.text}
                     className="w-full h-[230px] rounded-lg border border-gray-300"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity transition ease-in duration-1000">
+                  <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity transition ease-in duration-1000">
                     <span className="text-white text-lg font-bold">{item.text} <br></br>{item.text2} </span>
                   </div>
                 </div>
@@ -53,7 +54,7 @@ const Portfolio = () => {
                 key={index}
                 src={item.src}
                 controls
-                className='w-full h-[230px] rounded-lg border border-gray-300'
+                className='w-full h-[230px] rounded-lg border border-gray-300 '
                 autoPlay
                 loop
                 muted
